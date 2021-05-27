@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "14166232665",
+    "firebase_url": "https://locationtracer-66f3b-default-rtdb.firebaseio.com",
+    "project_id": "locationtracer-66f3b",
+    "storage_bucket": "locationtracer-66f3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14166232665:android:80902de538fab8988f6b48",
+        "android_client_info": {
+          "package_name": "com.example.locationtracer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14166232665-fi9m854rm3esai79gvleo24ia42hsdvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjJ5tH7M25I9NexIDXfoj5QU4DnSLoKK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14166232665-fi9m854rm3esai79gvleo24ia42hsdvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14166232665:android:c421cf97491593468f6b48",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14166232665-fi9m854rm3esai79gvleo24ia42hsdvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjJ5tH7M25I9NexIDXfoj5QU4DnSLoKK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14166232665-fi9m854rm3esai79gvleo24ia42hsdvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
