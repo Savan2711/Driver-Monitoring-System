@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingActivity">
+
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_width="347dp"
+        android:layout_height="42dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="52dp"
+        android:text="Start Time"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="342dp"
+        android:layout_height="42dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="27dp"
+        android:text="End Time"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startTime" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="346dp"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Duration"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endTime" />
+
+    <TextView
+        android:id="@+id/yawnCount"
+        android:layout_width="349dp"
+        android:layout_height="34dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="28dp"
+        android:text="Yawn Count"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duration" />
+
+    <TextView
+        android:id="@+id/eyeCount"
+        android:layout_width="351dp"
+        android:layout_height="39dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Eye Count"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yawnCount" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eyeCount"
+        app:layout_constraintVertical_bias="0.557"
+        tools:progress="60" />
+
+    <TextView
+        android:id="@+id/text_view_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="@+id/progress_bar"
+        app:layout_constraintEnd_toEndOf="@+id/progress_bar"
+        app:layout_constraintStart_toStartOf="@+id/progress_bar"
+        app:layout_constraintTop_toTopOf="@+id/progress_bar"
+        tools:text="60%" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
