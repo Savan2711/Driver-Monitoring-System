@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "371686755150",
+    "firebase_url": "https://journeyrecord-8ebe2-default-rtdb.firebaseio.com",
+    "project_id": "journeyrecord-8ebe2",
+    "storage_bucket": "journeyrecord-8ebe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371686755150:android:903c492f1d076e353bac1f",
+        "android_client_info": {
+          "package_name": "com.example.admindrivermonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371686755150-5v0tr98963uam6p4f6hbbbsapa2qggji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPepgRj5Z_b033ABwM3gNYa1zt6oV_bZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371686755150-5v0tr98963uam6p4f6hbbbsapa2qggji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371686755150:android:561cfc02e04372123bac1f",
+        "android_client_info": {
+          "package_name": "com.example.mapdirectiondemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371686755150-5v0tr98963uam6p4f6hbbbsapa2qggji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPepgRj5Z_b033ABwM3gNYa1zt6oV_bZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371686755150-5v0tr98963uam6p4f6hbbbsapa2qggji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
