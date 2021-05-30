@@ -321,12 +321,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             JSONObject array = new JSONObject(data);
 
             String distance;
-//            String duration;
-//            distance = array.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONObject("distance").getString("text");
-//            duration = array.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONObject("duration").getString("value");
+            String duration;
+            distance = array.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONObject("distance").getString("text");
+            duration = array.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONObject("duration").getString("value");
 
-            duration = String.valueOf(292);
-//            Log.d("distance : ", distance);
+//            duration = String.valueOf(292);
+            Log.d("distance : ", distance);
             Log.d("duration : ", duration); // second :  71163, 292
 
 //            Toast.makeText(MapsActivity.this, "It runs", Toast.LENGTH_LONG);

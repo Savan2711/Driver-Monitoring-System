@@ -207,7 +207,7 @@ public class RatingActivity extends AppCompatActivity {
 //                dstLonTextView.setText("Destination Longitude : " + dstLon);
                 startTimeTextView.setText("Start Time : " + startTime);
                 endTimeTextView.setText("End Time : " + endTime);
-                durationTextView.setText("Travelled Time : " + duration);
+                durationTextView.setText("Travelled Time : " + duration + " s");
                 yawnCountTextView.setText("Yawn Count : " + yawnCount);
                 eyeCountTextView.setText("Eye Count : " + eyeCount);
 

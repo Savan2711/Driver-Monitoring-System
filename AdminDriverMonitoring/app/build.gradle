@@ -1,6 +1,10 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+def googleMapAPIKey = properties.getProperty('MAPS_API_KEY')
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"

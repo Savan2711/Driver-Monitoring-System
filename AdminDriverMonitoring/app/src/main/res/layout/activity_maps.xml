@@ -11,12 +11,14 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="500dp"
         tools:context=".MapsActivity" />
 
     <TextView
         android:id="@+id/srcLat"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -25,6 +27,7 @@
 
     <TextView
         android:id="@+id/srcLon"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -33,6 +36,7 @@
 
     <TextView
         android:id="@+id/dstLat"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -41,59 +45,61 @@
 
     <TextView
         android:id="@+id/dstLon"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Destination Longitude"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/startTime"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Start Time"
-        android:textSize="18sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/startTime"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Start Time"-->
+<!--        android:textSize="18sp" />-->
 
-    <TextView
-        android:id="@+id/endTime"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="End Time"
-        android:textSize="18sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/endTime"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="End Time"-->
+<!--        android:textSize="18sp" />-->
 
-    <TextView
-        android:id="@+id/duration"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Duration"
-        android:textSize="18sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/duration"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Duration"-->
+<!--        android:textSize="18sp" />-->
 
-    <TextView
-        android:id="@+id/yawnCount"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Yawn Count"
-        android:textSize="18sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/yawnCount"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Yawn Count"-->
+<!--        android:textSize="18sp" />-->
 
-    <TextView
-        android:id="@+id/eyeCount"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Eye Count"
-        android:textSize="18sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/eyeCount"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Eye Count"-->
+<!--        android:textSize="18sp" />-->
 
     <Button
         android:id="@+id/showRating"
-        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
+        android:layout_gravity="center"
         android:onClick="showRating"
-        android:text="btn" />
+        android:text="Get Driver Rating" />
 </LinearLayout>
 
 
