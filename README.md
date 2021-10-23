@@ -7,8 +7,7 @@ The project includes two applications -
   2. On Admin Side - To evaluate the activity of the driver which displays rating for a driver based on considered factors and formulae
 
 The project also includes use of sensor like Camera to detect drowsiness.
-
-**Working - **
+**Working -**
 When the driver starts his journey, he needs to click on the start journey on the app at his side. This event will trigger the code on Raspberry Pi, 
 which results in the start of tracking activity.
 The data of the tracking are pushed to Google Firebase and fetched in other app for evaluation.
